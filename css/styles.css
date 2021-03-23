@@ -1,0 +1,165 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+.kontener{
+    width: 100%;
+}
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+/* Navbar */
+.logo{
+    margin-top: -40px;
+    margin-left: 30px;
+    height: 40%;
+    width: 40%;
+}
+.nav-link{
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 22pt;
+}
+.navbar-nav{
+    margin-right: 30px;
+    color: black;
+}
+.nav-item{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* Introduction */
+.no1{
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 42pt;
+    font-weight: 900;
+    margin-left: 150px;
+}
+.deskripsi{
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 27pt;
+    margin-left:150px;
+}
+.hashtag{
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 27pt;
+    font-weight: 900;
+    margin-left: 150px;
+}
+.tombol{
+    margin-left: 150px; 
+    margin-top: 60px; 
+    margin-bottom: 80px; 
+}
+.img-cont{
+    position: relative;
+}
+.title-image{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    height: 613px;
+    width: 585px;
+}
+
+@media (max-width: 991px){
+    .navbar-brand{
+        position: relative;
+        right: 130px;
+    }
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .no1{
+        text-align: center;
+        padding: 4%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .deskripsi{
+        text-align: center;
+        padding: 4%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .hashtag{
+        text-align: center;
+        padding: 4%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .tombol{
+        margin-left: auto;
+    }
+}
+
+/* Promo */
+.no2{
+    font-family: 'Revalia', cursive;
+    font-size: 52pt;
+    text-align: center;
+}
+.promo{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.desc{
+    margin-top: 20px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 27pt;
+}
+
+/* Menu */
+.recommended{
+    text-align: center;
+}
+.drink{
+    text-align: center;
+}
+.menu{
+    font-family: 'Revalia', cursive;
+    font-size: 27pt;
+    text-align: center;
+    padding-top: 15px;
+}
+
+/* Lokasi */
+.alamat{
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 27pt;
+}
+
+/* Hubungi Kami */
+.silahkan{
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 27pt;
+    font-weight: 900;
+    text-align: right;
+}
+.kontak{
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16pt;
+}
+
+
+
+/* Bagikan Kami */
+.icons{
+    text-align: center;
+}
+i{
+    color: white;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    padding: 20px;
+}
